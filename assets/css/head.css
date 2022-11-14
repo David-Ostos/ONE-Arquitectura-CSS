@@ -1,0 +1,33 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.head__menu{
+    display: flex;
+}
+
+.head__navegacion{
+    display: flex;
+}
+
+.head__enlace{
+    display: flex;
+    padding: 1rem;
+    color: #808080;
+    text-transform: lowercase;/*para transformar en minusculas*/
+    transition: all 0.5s ease-in-out;
+
+}
+
+.head__enlace.frist{
+    color: #333333;
+    font-weight: bold;
+}
+
+.head__enlace:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}

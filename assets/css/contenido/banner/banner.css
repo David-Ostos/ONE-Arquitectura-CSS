@@ -1,7 +1,9 @@
-
+.banner{
+    position: relative;
+}
 .banner__imagen{
     width: 100%;
-    height: calc(100vh - 72px);
+    /*height: calc(100vh - 72px);*/
 }
 
 .banner__titulo{
@@ -14,6 +16,8 @@
     top: 50%;
     text-shadow: 0 4px 4px rgba(0,0,0,0.75);
     width: 100%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);/*para que translate funcione hayq ue poner al padre en "position: relative" y el hijo en position: absolute */
+    /*margin-top: -82px; esta es una manera para poder centrar el objeto horizontalmente conociendo la altura del objeto para restarlo
+     */
+     
 }

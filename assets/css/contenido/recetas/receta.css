@@ -48,3 +48,52 @@
     border: none;
     border-radius: 3px;
 }
+
+@media screen and (min-width: 0) and (max-width:500px){
+
+    .recetas{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .receta{
+        width: auto;
+        margin: 0 2rem 5rem 2rem;
+    }
+    .receta__contenido{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width:1000px){
+
+    .receta{
+
+        width: 40%;
+        padding: auto;
+        margin: auto;
+    }
+    .recetas{
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+        margin: 0;
+    }
+    
+    .receta__contenido{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .receta__titulo{
+
+        font-size: 1rem;
+    }
+
+    .receta__descripcion{
+        font-size: 0.9rem;
+    }
+}

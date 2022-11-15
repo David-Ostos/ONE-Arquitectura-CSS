@@ -16,3 +16,15 @@
     font-size: 1.75rem;
     font-weight: 100;
 }
+
+@media screen and (min-width: 0) and (max-width:500px){
+
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+
+    .sobre__descripcion{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

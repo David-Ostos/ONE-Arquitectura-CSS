@@ -23,3 +23,11 @@
 
     background-image: url(../../../../img/personas/andrea.jpg)
 }
+
+@media screen and (min-width: 0) and (max-width:1024px){
+
+    .persona__imagen{
+        width: 200px;
+        height: 200px;
+    }
+}

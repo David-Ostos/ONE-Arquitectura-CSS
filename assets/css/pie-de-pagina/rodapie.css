@@ -1,0 +1,65 @@
+.rodapie{
+    background-color: #a4a4a4;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+
+}
+
+.rodapie__contacto{
+    display: flex;
+    padding: 0 2rem;
+}
+
+.rodapie__contacto__link{
+    display: flex;
+    padding-left: 2rem ;
+    transition: all 500ms;
+    align-items: center;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+}
+
+.rodapie__contacto__link:hover{
+    transform: scale(1.2);
+    text-decoration: underline #8d0606;
+
+}
+
+.fa-brands{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #8d0606; 
+    transition: all 500ms;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+}
+@media screen and (min-width: 0) and (max-width:500px){
+
+    .rodapie{
+        flex-direction: column;
+    }
+
+    .rodapie__contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodapie__contacto__link{
+        padding: 1rem 0;
+    }
+
+    .rodapie__redes{
+        display: flex;
+        justify-content: center;
+    }
+    .fa-brands{
+        margin: 1rem 1rem;
+
+    }
+}
